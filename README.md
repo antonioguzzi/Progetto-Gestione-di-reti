@@ -8,3 +8,10 @@ Per poter utilizzare il programma è necessario eseguire i comandi
 
 `pip3 install matplotlib`
 
+Per poi eseguire il programma con il comdando
+
+`python3 main.py`
+
+L'applicazione permette di fare analisi su dati prelevati direttamente da Prometheus. Per l'analisi di un server è necessario utilizzare una BlackBox e Prometheus che sono scaricabili direttamente dal sito ufficiale di Prometheus: https://prometheus.io/download/
+Dopo aver scaricato la versione adeguata al proprio sistema, devono essere copiati i file che sono contenuti nella cartella prometheus della repository, nelle cartelle blackbox e prometheus scaricate.
+A questo punto possiamo lanciare prima la blackbox e successivamente promtheus e quest'ultimo permettera di effettuare query al link: http://localhost:9090/.
