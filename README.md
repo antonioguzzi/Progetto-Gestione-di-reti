@@ -22,13 +22,13 @@ Dopo aver scaricato la versione adeguata al proprio sistema, devono essere copia
 ## Esempio di esecuzione
 Pagina Iniziale:
 
-![](image_gui/start_page.png)
+![](image_gui/start_page.png  | width=100)
 
 Single Exponential Smoothing:
 
-![](image_gui/single_smoothing.png)
+![](image_gui/single_smoothing.png  | width=100)
 
 Double Exponential Smoothing:
 
-![](image_gui/double_smoothing.png)
+![](image_gui/double_smoothing.png  | width=100)
 
