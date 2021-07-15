@@ -19,12 +19,16 @@ Dopo aver scaricato la versione adeguata al proprio sistema, devono essere copia
 * **guy.py:** contiene alcune funzioni per la creazione e la gestione della GUI
 * **smoothing.py:** contiene gli algoritmi di forecasting (single & double exponential smoothing) e una funzione utile per il calcolo dell'SSE
 * **utilities.py:** contiene alcune funzioni utili per la letture dei dati da un file .json o direttamente da prometheus
-## Utilizzo della GUI
 ## Esempio di esecuzione
 Pagina Iniziale:
+
 ![](image_gui/start_page.png)
+
 Single Exponential Smoothing:
+
 ![](image_gui/single_smoothing.png)
+
 Double Exponential Smoothing:
+
 ![](image_gui/double_smoothing.png)
 
