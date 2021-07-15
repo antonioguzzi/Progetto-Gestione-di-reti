@@ -15,6 +15,10 @@ Per poi eseguire il programma con il comando
 L'applicazione permette di fare analisi su dati prelevati direttamente da Prometheus o da file JSON. Per la cattura dei dati con Prometheus è necessario utilizzare in aggiunta a quest'ultimo una BlackBox. Entrambi sono scaricabili direttamente dal [sito ufficiale di Prometheus](https://prometheus.io/download/).
 Dopo aver scaricato la versione adeguata al proprio sistema, devono essere copiati i file di configurazione *.yaml* contenuti nella cartella *prometheus* della repository, direttamente nelle cartelle *blackbox* e *prometheus* scaricate. A questo punto possiamo lanciare la blackbox e successivamente prometheus, quest'ultimo permettera di effettuare query diverse al seguente link: http://localhost:9090/
 ## Descrizione
+* **main.py:** è il main file da mandare in esecuzione
+* **guy.py:** contiene alcune funzioni per la creazione e la gestione della GUI
+* **smoothing.py:** contiene gli algoritmi di forecasting (single & double exponential smoothing) e una funzione utile per il calcolo dell'SSE
+* **utilities.py:** contiene alcune funzioni utili per la letture dei dati da un file .json o direttamente da prometheus
 ## Utilizzo della GUI
 ## Esempio di esecuzione
 
