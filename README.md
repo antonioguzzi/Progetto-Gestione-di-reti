@@ -21,5 +21,10 @@ Dopo aver scaricato la versione adeguata al proprio sistema, devono essere copia
 * **utilities.py:** contiene alcune funzioni utili per la letture dei dati da un file .json o direttamente da prometheus
 ## Utilizzo della GUI
 ## Esempio di esecuzione
+Pagina Iniziale
 ![](image_gui/start_page.png)
+Single Exponential Smoothing
+![](image_gui/single_smoothing.png)
+Double Exponential Smoothing
+![](image_gui/double_smoothing.png)
 
