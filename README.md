@@ -8,7 +8,7 @@ Per poter utilizzare il programma è necessario eseguire i comandi
 
 `pip3 install matplotlib`
 
-Per poi eseguire il programma con il comdando
+Per poi eseguire il programma con il comando
 
 `python3 main.py`
 
