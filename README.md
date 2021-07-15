@@ -12,6 +12,5 @@ Per poi eseguire il programma con il comdando
 
 `python3 main.py`
 
-L'applicazione permette di fare analisi su dati prelevati direttamente da Prometheus o da file JSON. Per la cattura dei dati con Prometheus è necessario utilizzare in aggiunta a quest'ultimo una BlackBox. Entrambi sono scaricabili direttamente dal sito ufficiale di Prometheus: https://prometheus.io/download/
-Dopo aver scaricato la versione adeguata al proprio sistema, devono essere copiati i file di configurazione yaml che sono contenuti nella cartella prometheus della repository, direttamente nelle cartelle blackbox e prometheus scaricate.
-A questo punto possiamo lanciare la blackbox e successivamente prometheus; quest'ultimo permettera di effettuare query al link: http://localhost:9090/.
+L'applicazione permette di fare analisi su dati prelevati direttamente da Prometheus o da file JSON. Per la cattura dei dati con Prometheus è necessario utilizzare in aggiunta a quest'ultimo una BlackBox. Entrambi sono scaricabili direttamente dal [sito ufficiale di Prometheus](https://prometheus.io/download/).
+Dopo aver scaricato la versione adeguata al proprio sistema, devono essere copiati i file di configurazione *.yaml* contenuti nella cartella prometheus della repository, direttamente nelle cartelle *blackbox* e *prometheus* scaricate. A questo punto possiamo lanciare la blackbox e successivamente prometheus, quest'ultimo permettera di effettuare query diverse al [link](http://localhost:9090/).
