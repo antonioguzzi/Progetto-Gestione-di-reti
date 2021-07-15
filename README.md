@@ -21,4 +21,5 @@ Dopo aver scaricato la versione adeguata al proprio sistema, devono essere copia
 * **utilities.py:** contiene alcune funzioni utili per la letture dei dati da un file .json o direttamente da prometheus
 ## Utilizzo della GUI
 ## Esempio di esecuzione
+![](image_gui/start_page.png)
 
