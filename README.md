@@ -21,6 +21,13 @@ Dopo aver scaricato la versione adeguata al proprio sistema, devono essere copia
 * **smoothing.py:** contiene gli algoritmi di forecasting (single & double exponential smoothing)
 * **utilities.py:** contiene alcune funzioni utili per la letture dei dati da un file .json o direttamente da prometheus
 * **templates** è la cartella che contiene i vari file .html che realizzarano l'interfaccia web
+
+ogni quanto avviene una cattura/aggiornamento della pagina?
+
+qual è il server interrogato?
+
+spiegare ogni singolo template .html?
+
 ## Esempio di esecuzione
 Pagina Iniziale dopo aver selezionato la cattura da Prometheus:
 
