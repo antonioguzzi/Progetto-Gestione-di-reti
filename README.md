@@ -24,17 +24,17 @@ Dopo aver scaricato la versione adeguata al proprio sistema, devono essere copia
 ## Esempio di esecuzione
 Pagina Iniziale dopo aver selezionato la cattura da Prometheus:
 
-![](Images/Pagina iniziale.PNG)
+![](Images/pagina_iniziale.png)
 
 Single Exponential Smoothing:
 
-![](Images/Prova single smoothing.PNG)
+![](Images/single_smoothing.png)
 
 Double Exponential Smoothing:
 
-![](Images/Prova Double smoothing.PNG)
+![](Images/double_smoothing.png)
 
 Nel caso in cui la i dati catturati fuoriescano dai bound previsti al passo precedente (segnalati in verde all'interno dei grafici) il programma genererà un allert di questo tipo:
 
-![](Images/Previsione non corretta.PNG)
+![](Images/allert.png)
 
