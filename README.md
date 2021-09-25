@@ -8,27 +8,33 @@ Per poter utilizzare il programma è necessario eseguire i comandi
 
 `pip3 install matplotlib`
 
+`pip3 install flask`
+
 Per poi eseguire il programma con il comando
 
-`python3 main.py`
+`python3 app.py`
 
 L'applicazione permette di fare analisi su dati prelevati direttamente da Prometheus o da file JSON. Per la cattura dei dati con Prometheus è necessario utilizzare in aggiunta a quest'ultimo una BlackBox. Entrambi sono scaricabili direttamente dal [sito ufficiale di Prometheus](https://prometheus.io/download/).
-Dopo aver scaricato la versione adeguata al proprio sistema, devono essere copiati i file di configurazione *.yaml* contenuti nella cartella *prometheus* della repository direttamente nelle cartelle *blackbox* e *prometheus* scaricate. A questo punto possiamo lanciare la blackbox e successivamente prometheus, quest'ultimo permetterà di effettuare query diverse al seguente link: http://localhost:9090/
+Dopo aver scaricato la versione adeguata al proprio sistema, devono essere copiati i file di configurazione *.yaml* contenuti nella cartella *prometheus* della repository direttamente nelle cartelle *blackbox* e *prometheus* scaricate. A questo punto possiamo lanciare la blackbox e successivamente prometheus, quest'ultimo permetterà di effettuare query diverse al seguente link: http://localhost:9090/. Una volta mandato in esecuzione il programma sarà possibile utilizzare l'interfaccia web al link http://localhost:5000/ per interagire con l'applicazione.
 ## Descrizione
-* **main.py:** è il main file da mandare in esecuzione
-* **guy.py:** contiene alcune funzioni per la creazione e la gestione della GUI
-* **smoothing.py:** contiene gli algoritmi di forecasting (single & double exponential smoothing) e una funzione utile per il calcolo dell'SSE
+* **app.py:** contiene il main del programma oltre allo scheletro dell'interfaccia web 
+* **smoothing.py:** contiene gli algoritmi di forecasting (single & double exponential smoothing)
 * **utilities.py:** contiene alcune funzioni utili per la letture dei dati da un file .json o direttamente da prometheus
+* **templates** è la cartella che contiene i vari file .html che realizzarano l'interfaccia web
 ## Esempio di esecuzione
-Pagina Iniziale:
+Pagina Iniziale dopo aver selezionato la cattura da Prometheus:
 
-![](image_gui/start_page.png)
+![](Images/Pagina iniziale.PNG)
 
 Single Exponential Smoothing:
 
-![](image_gui/single_smoothing.png)
+![](Images/Prova single smoothing.PNG)
 
 Double Exponential Smoothing:
 
-![](image_gui/double_smoothing.png)
+![](Images/Prova Double smoothing.PNG)
+
+Nel caso in cui la i dati catturati fuoriescano dai bound previsti al passo precedente (segnalati in verde all'interno dei grafici) il programma genererà un allert di questo tipo:
+
+![](Images/Previsione non corretta.PNG)
 
