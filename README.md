@@ -22,12 +22,6 @@ Dopo aver scaricato la versione adeguata al proprio sistema, devono essere copia
 * **utilities.py:** contiene alcune funzioni utili per la letture dei dati da un file .json o direttamente da prometheus
 * **templates** è la cartella che contiene i vari file .html che realizzarano l'interfaccia web
 
-ogni quanto avviene una cattura/aggiornamento della pagina?
-
-qual è il server interrogato?
-
-spiegare ogni singolo template .html?
-
 ## Esempio di esecuzione
 Pagina Iniziale dopo aver selezionato la cattura da Prometheus:
 
@@ -41,7 +35,7 @@ Double Exponential Smoothing:
 
 ![](Images/double_smoothing.png)
 
-Nel caso in cui i dati catturati fuoriescano dai bound previsti al passo precedente (segnalati in verde all'interno dei grafici) il programma genererà un alert di questo tipo:
+Nel caso in cui i dati catturati fuoriescano dai bound previsti al passo precedente (segnalati in verde all'interno dei grafici) il programma genererà un **alert** di questo tipo:
 
 ![](Images/allert.png)
 
