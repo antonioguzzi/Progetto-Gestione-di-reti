@@ -41,7 +41,7 @@ Double Exponential Smoothing:
 
 ![](Images/double_smoothing.png)
 
-Nel caso in cui i dati catturati fuoriescano dai bound previsti al passo precedente (segnalati in verde all'interno dei grafici) il programma genererà un allert di questo tipo:
+Nel caso in cui i dati catturati fuoriescano dai bound previsti al passo precedente (segnalati in verde all'interno dei grafici) il programma genererà un alert di questo tipo:
 
 ![](Images/allert.png)
 
